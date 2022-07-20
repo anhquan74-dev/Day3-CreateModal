@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 - Create Modal</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main">
+        <button class="open-btn">Open Modal</button>
+    </div>
+
+
+        <div class="modal hide">
+            <div class="modal_inner">
+                <div class="modal_header">
+                    <span>Welcome to My Website</span>
+                    <i class="modal_header-closeBtn fas fa-times"></i>
+                </div>
+                <div class="modal_body">
+                    <h3 class="modal_body-heading">Modal</h3>
+                    <p class="modal_body-desc">Đây là phần body của Modal</p>
+                </div>
+                
+                <button class="modal_close-btn">
+                    Close
+                </button>
+            </div>
+        </div>
+
+        <!-- nên -->
+        <!-- <div class="modal">
+            <div class="modal_inner">
+                <div class="modal_header"></div>
+                <div class="modal_body"></div>
+                <div class="modal_footer"></div>
+            </div>
+        </div> -->
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
